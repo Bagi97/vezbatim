@@ -2,7 +2,7 @@ body {
     background-image: url(backimage.jpg);
     ;
 }
-#wrapper {
+.wrapper {
     border: 2px solid white;
     display: flex;
     
