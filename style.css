@@ -1,54 +1,98 @@
 body {
-    background-image: url(backimage.jpg);;
-
+    background-image: url(backimage.jpg);
+    ;
 }
 
-.linkovi{
+.linkovi {
     /* border: 1px solid black; */
     border-radius: 5%;
-    background-color: rgba(224, 12, 12, 0.418);
+    /* background-color: rgba(224, 12, 12, 0.418); */
     color: rgb(38, 109, 68);
     text-decoration: none;
     text-align: center;
     padding: 15px;
 }
-.logo>a{
-    color: rgba(224, 12, 12, 0.623) ;
+
+.logo>a {
+    color: rgba(224, 12, 12, 0.623);
 }
+
 nav a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color:rgb(185, 47, 47);
     font-size: 25px;
-    
 }
 
-@media(min-width:576px){
-    body{
-        background-image: url(backimage.jpg) ;
+.okvir {
+    display: grid;
+    grid-gap:20px;
+    /* border: 2px solid blue; */
+    margin: 20px 100px 20px 100px;
+    
+    grid-template: "sadrzaj" "podnozije";
+}
+.sadrzaj {
+    grid-area: sadrzaj;
+    /* border: 1px solid red; */
+    color: white;
+}
+.podnozije {
+    grid-area: podnozije;
+    /* border: 1px solid red; */
+    color: white;
+}
+a:hover {
+    color: red;
+    background-color: rgba(248, 4, 4, 0.226);
+}
+a:link {
+    color:red ;
+    background-color: ;
+}
+
+@media(min-width:576px) {
+    body {
+        background-image: url(backimage.jpg);
         background-size: cover;
     }
-    nav{
+    nav {
         display: flex;
         justify-content: end;
     }
-    nav div{
+    nav div {
         margin-left: 50px;
     }
-
-a:link {
-    color: ;
-    background-color: ;
-}
-a:visited {
-color: ;
-background-color: ;
-}
-a:hover {
-    color: ;
-    background-color: ;
-}
-a:active {
-    color: ;
-    background-color: ;
-}
+    a:link {
+        color:red ;
+        background-color: ;
+    }
+    a:visited {
+        color: ;
+        background-color: ;
+    }
+    a:hover {
+        color: red;
+        background-color: ;
+    }
+    a:active {
+        color: ;
+        background-color: ;
+    }
+    .okvir {
+        display: grid;
+        /* border: 2px solid blue; */
+        margin-top: 20px;
+        grid-template: "sadrzaj" "podnozije";
+    }
+    .sadrzaj {
+        grid-area: sadrzaj;
+        /* border: 1px solid red; */
+        color: white;
+    }
+    .podnozije {
+        grid-area: podnozije;
+        /* border: 1px solid red; */
+        color: white;
+        background: rgba(128, 128, 128, 0.61);
+    }
