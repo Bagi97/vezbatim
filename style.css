@@ -21,6 +21,9 @@ nav a {
 }
 
 @media(min-width:576px){
+    body{
+        background-image: url(images.jfif);
+    }
     nav{
         display: flex;
         justify-content: end;
