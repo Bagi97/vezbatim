@@ -16,3 +16,19 @@ nav a {
     font-weight: bold;
     
 }
+a:link {
+    color: ;
+    background-color: ;
+}
+a:visited {
+color: ;
+background-color: ;
+}
+a:hover {
+    color: ;
+    background-color: ;
+}
+a:active {
+    color: ;
+    background-color: ;
+}
