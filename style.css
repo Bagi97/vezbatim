@@ -18,3 +18,13 @@ nav a {
     font-size: 25px;
     
 }
+
+@media(min-width:576px){
+    nav{
+        display: flex;
+        justify-content: end;
+    }
+    nav div{
+        margin-left: 50px;
+    }
+}
