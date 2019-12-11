@@ -2,10 +2,6 @@ body {
     background-image: url(backimage.jpg);
     ;
 }
-<<<<<<< HEAD
-
-.linkovi {
-=======
 #wrapper {
     border: 2px solid white;
     display: flex;
@@ -31,7 +27,6 @@ body {
     height: 100px;
 }
 .linkovi{
->>>>>>> 600aae8722b01f20e6c0e34b15777207155e0c44
     /* border: 1px solid black; */
     border-radius: 5%;
     /* background-color: rgba(224, 12, 12, 0.418); */
