@@ -27,4 +27,20 @@ nav a {
     nav div{
         margin-left: 50px;
     }
+    
+a:link {
+    color: ;
+    background-color: ;
+}
+a:visited {
+color: ;
+background-color: ;
+}
+a:hover {
+    color: ;
+    background-color: ;
+}
+a:active {
+    color: ;
+    background-color: ;
 }
