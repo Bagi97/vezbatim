@@ -1,15 +1,18 @@
 body {
-    background-image: url(images.jfif);;
+    background-image: url(backimage.jpg);;
 
 }
 .linkovi{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5%;
-    background-color: rgb(172, 77, 77);
+    background-color: rgba(224, 12, 12, 0.418);
     color: rgb(38, 109, 68);
     text-decoration: none;
     text-align: center;
     padding: 15px;
+}
+.logo>a{
+    color: rgba(224, 12, 12, 0.623) ;
 }
 nav a {
     text-decoration: none;
@@ -21,7 +24,8 @@ nav a {
 
 @media(min-width:576px){
     body{
-        background-image: url(images.jfif);
+        background-image: url(backimage.jpg) ;
+        background-size: cover;
     }
     nav{
         display: flex;
