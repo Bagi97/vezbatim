@@ -2,7 +2,30 @@ body {
     background-image: url(backimage.jpg);;
 
 }
-
+#wrapper {
+    border: 2px solid white;
+    display: flex;
+    
+    flex-direction: column;
+}
+#info {
+    border: orchid 1px solid;
+    background-color: orchid;
+    color: black;
+    height: 100px;
+}
+#main {
+    border: 1px solid royalblue;
+    background-color: salmon;
+    color: black;
+    height: 500px;
+}
+#footer {
+    border: 1px solid green;
+    background-color: greenyellow;
+    color: indigo;
+    height: 100px;
+}
 .linkovi{
     /* border: 1px solid black; */
     border-radius: 5%;
@@ -35,7 +58,13 @@ nav a {
     nav div{
         margin-left: 50px;
     }
-
+    .wrapper {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        
+    }
+}
 a:link {
     color: ;
     background-color: ;
