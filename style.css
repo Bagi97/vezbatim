@@ -14,5 +14,7 @@ body {
 nav a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
+    font-size: 25px;
     
 }
